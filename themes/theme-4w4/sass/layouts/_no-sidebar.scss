@@ -27,3 +27,15 @@
 {
 	margin-left: 3rem;
 }
+
+.entry-content ul {
+	margin-left: 0;
+}
+
+.wp-block-column ul {
+	margin-left: 0;
+	@include desktop {
+		list-style-type: none;
+		font-size: 27px;
+	}
+}
